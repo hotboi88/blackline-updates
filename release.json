@@ -1,8 +1,8 @@
 {
-  "version": "0.15.100",
-  "file": "Blackline_0.15.100_x64-setup.exe",
-  "blake3": "a875d9ac54e1202604bd5f6887606911d2d9504208a0d863a9f4ad7181a862ab",
-  "bytes": 11161350,
-  "at": "2026-09-21T21:24:23Z",
-  "notes": "# Blackline 0.15.100\n\n* The version shows only beside the title now, not in the user bar.\n"
+  "version": "0.15.101",
+  "file": "Blackline_0.15.101_x64-setup.exe",
+  "blake3": "6514b5504bc88842fc32bedc6163e6992c1ddb261b7375d237ed4bc683199d0b",
+  "bytes": 11159931,
+  "at": "2026-09-21T21:34:32Z",
+  "notes": "# Blackline 0.15.101\n\n* The big card's banner runs the full width again; only the body below the tabs scrolls.\n* A tick in a menu moves on the press itself.\n"
 }
