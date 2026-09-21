@@ -1,8 +1,8 @@
 {
-  "version": "0.15.92",
-  "file": "Blackline_0.15.92_x64-setup.exe",
-  "blake3": "e2957c2f12df39c8a10eca49cc5b1f1c8fc708a2dfcfa82e4033c5bf5d0ea3ba",
-  "bytes": 11121685,
-  "at": "2026-09-21T04:04:20Z",
-  "notes": "# Blackline 0.15.92\n\n* Shorter lines under the share popout's switches, so none is cut off.\n"
+  "version": "0.15.93",
+  "file": "Blackline_0.15.93_x64-setup.exe",
+  "blake3": "4454aa1f2e460712107d5f56208400809194a586b1d74f6db54970c3549ac0b0",
+  "bytes": 11117001,
+  "at": "2026-09-21T04:18:47Z",
+  "notes": "# Blackline 0.15.93\n\n* The space picture is fitted exactly like a group chat's: it fills the tile, drag to frame.\n"
 }
