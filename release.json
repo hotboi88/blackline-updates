@@ -1,8 +1,8 @@
 {
-  "version": "0.15.95",
-  "file": "Blackline_0.15.95_x64-setup.exe",
-  "blake3": "f7ad619578f764006193f02e2ec5e3869ba13b5176604b6a4424b18c244d5f38",
-  "bytes": 11123254,
-  "at": "2026-09-21T19:33:58Z",
-  "notes": "# Blackline 0.15.95\n\n* **Access tab** on the big profile card: a friend's doors, open or close them there; for somebody known through a space, what the space's reach grid lets them do with you.\n* **Keep this space relayed** on a space's right-click: everyone in it, newcomers included, is always reached through a relay.\n"
+  "version": "0.15.96",
+  "file": "Blackline_0.15.96_x64-setup.exe",
+  "blake3": "52c880f6753272189f6ce125ade9409a775743b8656ef3c49c89eac4fb030e54",
+  "bytes": 11118182,
+  "at": "2026-09-21T19:34:43Z",
+  "notes": "# Blackline 0.15.96\n\n* The X that stops your screen share is grey.\n"
 }
