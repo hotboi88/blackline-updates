@@ -1,8 +1,8 @@
 {
-  "version": "0.15.91",
-  "file": "Blackline_0.15.91_x64-setup.exe",
-  "blake3": "8773143e3b132925d896e0ca20757f19b97d10257bcfcdd7622276b3142e1f56",
-  "bytes": 11115892,
-  "at": "2026-09-21T03:44:54Z",
-  "notes": "# Blackline 0.15.91\n\n* The dock-to-the-right button is gone, and with it its partner: the call sits above the chat, full stop.\n"
+  "version": "0.15.92",
+  "file": "Blackline_0.15.92_x64-setup.exe",
+  "blake3": "e2957c2f12df39c8a10eca49cc5b1f1c8fc708a2dfcfa82e4033c5bf5d0ea3ba",
+  "bytes": 11121685,
+  "at": "2026-09-21T04:04:20Z",
+  "notes": "# Blackline 0.15.92\n\n* Shorter lines under the share popout's switches, so none is cut off.\n"
 }
