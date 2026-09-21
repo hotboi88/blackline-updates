@@ -1,8 +1,8 @@
 {
-  "version": "0.15.81",
-  "file": "Blackline_0.15.81_x64-setup.exe",
-  "blake3": "1f805746deebae7c7818e9a233f395aa19c865a3d9663efaccb9127eb181bb21",
-  "bytes": 11128873,
-  "at": "2026-09-21T00:15:51Z",
-  "notes": "# Blackline 0.15.81\n\n* **Remote control is findable.** While you share your screen, a **Control: off/on** button sits in\n  your call bar. Turning it on lets everyone in the call ask to drive your screen — you still say\n  yes or no to each request. On the viewer's side, **Ask to control** is a labelled button on the\n  sharer's tile whenever they share; dimmed, with the reason, until they turn control on.\n"
+  "version": "0.15.82",
+  "file": "Blackline_0.15.82_x64-setup.exe",
+  "blake3": "f34c88d719583cb25ca513ee2ddcc57a9414da724dea4769ee03401a6b6abfa1",
+  "bytes": 11128931,
+  "at": "2026-09-21T00:37:35Z",
+  "notes": "# Blackline 0.15.82\n\n* **Pin** ticks on the first press: the menu now redraws when the pin actually lands instead of a frame before, and ignores a second press while it is landing (which used to un-pin it).\n* No stray line at the bottom of a menu whose last group was empty — dividers are tidied for every menu.\n"
 }
