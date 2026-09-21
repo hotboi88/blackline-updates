@@ -1,8 +1,8 @@
 {
-  "version": "0.15.82",
-  "file": "Blackline_0.15.82_x64-setup.exe",
-  "blake3": "f34c88d719583cb25ca513ee2ddcc57a9414da724dea4769ee03401a6b6abfa1",
-  "bytes": 11128931,
-  "at": "2026-09-21T00:37:35Z",
-  "notes": "# Blackline 0.15.82\n\n* **Pin** ticks on the first press: the menu now redraws when the pin actually lands instead of a frame before, and ignores a second press while it is landing (which used to un-pin it).\n* No stray line at the bottom of a menu whose last group was empty — dividers are tidied for every menu.\n"
+  "version": "0.15.83",
+  "file": "Blackline_0.15.83_x64-setup.exe",
+  "blake3": "5832839f107d37aa41a71c8dc76c21dab59c10842f25c5b563046c1b3ae7b108",
+  "bytes": 11130466,
+  "at": "2026-09-21T01:24:16Z",
+  "notes": "# Blackline 0.15.83\n\n* **The ring popup** is now the same dialog as everything else — flat, the app's buttons.\n* **Alone in a call for three minutes** and it ends, with a line saying why.\n* **Connection copy** says the truth for every switch: relayed by your choice, relayed because no direct path, direct, offline — in one short line. Same words in the menu tick and in Settings.\n"
 }
