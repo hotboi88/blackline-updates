@@ -1,8 +1,8 @@
 {
-  "version": "0.15.89",
-  "file": "Blackline_0.15.89_x64-setup.exe",
-  "blake3": "a9be5aa97492cb62d953b81d75786c9852e807047259ab76dc435d0d54ae08d9",
-  "bytes": 11131397,
-  "at": "2026-09-21T02:45:51Z",
-  "notes": "# Blackline 0.15.89\n\n* Accent-coloured buttons are flat: no outline in any state.\n"
+  "version": "0.15.90",
+  "file": "Blackline_0.15.90_x64-setup.exe",
+  "blake3": "6a14c123b713106f0072753d7baa915d59e43e6382467e1b33ab4e77bb3e3402",
+  "bytes": 11123503,
+  "at": "2026-09-21T03:35:03Z",
+  "notes": "# Blackline 0.15.90\n\n* **Listening seats are gone.** The sit-in-and-listen feature is removed everywhere. A seat signal from an older build is dropped.\n"
 }
