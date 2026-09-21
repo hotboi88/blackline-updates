@@ -1,8 +1,8 @@
 {
-  "version": "0.15.86",
-  "file": "Blackline_0.15.86_x64-setup.exe",
-  "blake3": "4e82ab0c20554779b2168b368a93279244640ad19446c02207b48c1bd323b6ca",
-  "bytes": 11127281,
-  "at": "2026-09-21T02:05:00Z",
-  "notes": "# Blackline 0.15.86\n\n* **Filled call**: the chat moves into a column on the right instead of hiding.\n* **Thread comments** have Edit and Delete buttons; editing happens in the reply box (Enter saves, Escape cancels).\n* **Inviting to a space from a person's menu** (including in voice) sends the same short invite the sheet makes.\n"
+  "version": "0.15.87",
+  "file": "Blackline_0.15.87_x64-setup.exe",
+  "blake3": "d978580a248a384ebbbbd96fa61f3e916c4798becec73bb7c4fa8bb9637d6999",
+  "bytes": 11123647,
+  "at": "2026-09-21T02:13:52Z",
+  "notes": "# Blackline 0.15.87\n\n* **Remote control**: the switch is in the screen-share popout (\"Let them ask to control\"). When it is on, the other person sees an **Ask to control** pill on your tile.\n* The search suggestions box stops short of the right column.\n"
 }
