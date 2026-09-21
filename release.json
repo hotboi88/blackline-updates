@@ -1,8 +1,8 @@
 {
-  "version": "0.15.103",
-  "file": "Blackline_0.15.103_x64-setup.exe",
-  "blake3": "2b683d02a2ace93fcae6ef947354834f436da8018faa7f749e1422b9425660b2",
-  "bytes": 11177579,
-  "at": "2026-09-21T22:22:28Z",
-  "notes": "# Blackline 0.15.103\n\n* An @mention shows the name and the short address, in the picker and in the message; the pill is roomier.\n* A narrow header drops the call chip so the name shows.\n* While a call is still ringing, the other person's tile is dimmed until they pick up.\n"
+  "version": "0.15.107",
+  "file": "Blackline_0.15.107_x64-setup.exe",
+  "blake3": "e0540eac60e8bcd05da7b07a1cc1fd6c0383dea41466ef8d6f9cf1c2f240d432",
+  "bytes": 11184742,
+  "at": "2026-09-21T23:41:56Z",
+  "notes": "# Blackline 0.15.107\n\n* **Updates install on their own.** The app checks every ten minutes; a newer build is fetched, checked against the signed manifest and its hash, installed silently, and the app comes back by itself. It waits if you are in a call. (From 0.15.97 to 0.15.106 the check itself crashed quietly on every machine — fixed.)\n* No automatic \"busy\": a ring during a call is shown; answer it, decline it, or let it ring out.\n* Pictures whose preview was over one chunk send again; click a picture in the tray to see it big.\n* Scroll positions survive redraws you did not ask for.\n* A friend sitting in your DM's call shows as \"Join · name is in the call\".\n"
 }
