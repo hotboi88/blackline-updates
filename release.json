@@ -1,8 +1,8 @@
 {
-  "version": "0.15.101",
-  "file": "Blackline_0.15.101_x64-setup.exe",
-  "blake3": "6514b5504bc88842fc32bedc6163e6992c1ddb261b7375d237ed4bc683199d0b",
-  "bytes": 11159931,
-  "at": "2026-09-21T21:34:32Z",
-  "notes": "# Blackline 0.15.101\n\n* The big card's banner runs the full width again; only the body below the tabs scrolls.\n* A tick in a menu moves on the press itself.\n"
+  "version": "0.15.102",
+  "file": "Blackline_0.15.102_x64-setup.exe",
+  "blake3": "2c2842f0a7f83993724adbda73f85cf1e4b731025a1543f672a58089cff338a2",
+  "bytes": 11182013,
+  "at": "2026-09-21T22:10:28Z",
+  "notes": "# Blackline 0.15.102\n\n* **Presence without connecting.** The app no longer dials every friend to find out who is online. Each device publishes one small \"I'm here\" record a minute; the rows on your screen are looked up, nothing else. A link is made only when you open a conversation, a call is up, or a message is owed. Measured: friends on screen, nothing open — zero connections.\n* **Links in chat open in your browser**, not inside the app.\n* The desktop notification carries the logo at a proper size.\n"
 }
