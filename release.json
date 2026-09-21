@@ -1,8 +1,8 @@
 {
-  "version": "0.15.85",
-  "file": "Blackline_0.15.85_x64-setup.exe",
-  "blake3": "1fb3d30bf49240f8a9b4d4d33e5ed119cc73e6e0ff22954a47759fac45e9b28a",
-  "bytes": 11121874,
-  "at": "2026-09-21T01:51:58Z",
-  "notes": "# Blackline 0.15.85\n\n* **The owner can leave a group without closing it.** Tick the box in the leave popup and the room stays open; the member who has been in it longest becomes its owner.\n* **Remote control** lives in the menus now: your stream's ⋯ menu has the switch; the other person's tile menu has \"Ask to control their screen\".\n* The floating members pill in calls is gone.\n* The three-minute alone timeout applies to DM and group calls only.\n"
+  "version": "0.15.86",
+  "file": "Blackline_0.15.86_x64-setup.exe",
+  "blake3": "4e82ab0c20554779b2168b368a93279244640ad19446c02207b48c1bd323b6ca",
+  "bytes": 11127281,
+  "at": "2026-09-21T02:05:00Z",
+  "notes": "# Blackline 0.15.86\n\n* **Filled call**: the chat moves into a column on the right instead of hiding.\n* **Thread comments** have Edit and Delete buttons; editing happens in the reply box (Enter saves, Escape cancels).\n* **Inviting to a space from a person's menu** (including in voice) sends the same short invite the sheet makes.\n"
 }
