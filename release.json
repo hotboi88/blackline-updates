@@ -1,8 +1,8 @@
 {
-  "version": "0.15.99",
-  "file": "Blackline_0.15.99_x64-setup.exe",
-  "blake3": "ea5e300f127cd0801c891d2aa254e50c83fd33c0718740ef4791786e71914fe4",
-  "bytes": 11155410,
-  "at": "2026-09-21T21:17:18Z",
-  "notes": "# Blackline 0.15.99\n\n* **Missed calls show again.** A ring nobody answered wrote nothing down once calls were held open; now it does — \"No answer\" on the caller's side, \"Missed call\" on the other, in the DM list and the stream.\n* The version also sits, tiny, beside the title at the top — the word stays centred.\n* The big card holds still when you change tabs.\n"
+  "version": "0.15.100",
+  "file": "Blackline_0.15.100_x64-setup.exe",
+  "blake3": "a875d9ac54e1202604bd5f6887606911d2d9504208a0d863a9f4ad7181a862ab",
+  "bytes": 11161350,
+  "at": "2026-09-21T21:24:23Z",
+  "notes": "# Blackline 0.15.100\n\n* The version shows only beside the title now, not in the user bar.\n"
 }
