@@ -1,8 +1,8 @@
 {
-  "version": "0.15.93",
-  "file": "Blackline_0.15.93_x64-setup.exe",
-  "blake3": "4454aa1f2e460712107d5f56208400809194a586b1d74f6db54970c3549ac0b0",
-  "bytes": 11117001,
-  "at": "2026-09-21T04:18:47Z",
-  "notes": "# Blackline 0.15.93\n\n* The space picture is fitted exactly like a group chat's: it fills the tile, drag to frame.\n"
+  "version": "0.15.94",
+  "file": "Blackline_0.15.94_x64-setup.exe",
+  "blake3": "021251aa6d41c02e1c6c47aee36277e0933b72c54fb35bb113c078a6d3c00362",
+  "bytes": 11122208,
+  "at": "2026-09-21T04:35:32Z",
+  "notes": "# Blackline 0.15.94\n\n* The \"just leave\" choice in the close-room popup is the app's own switch, in its own row.\n"
 }
