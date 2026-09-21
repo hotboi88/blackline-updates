@@ -1,8 +1,8 @@
 {
-  "version": "0.15.84",
-  "file": "Blackline_0.15.84_x64-setup.exe",
-  "blake3": "ecda63ae49d0b390f2a15102507039644f02ce20c8742121233ea1b1fe51670b",
-  "bytes": 11130335,
-  "at": "2026-09-21T01:35:24Z",
-  "notes": "# Blackline 0.15.84\n\n* A face in a menu (Invite to voice) is drawn at its size, not the size of the menu.\n"
+  "version": "0.15.85",
+  "file": "Blackline_0.15.85_x64-setup.exe",
+  "blake3": "1fb3d30bf49240f8a9b4d4d33e5ed119cc73e6e0ff22954a47759fac45e9b28a",
+  "bytes": 11121874,
+  "at": "2026-09-21T01:51:58Z",
+  "notes": "# Blackline 0.15.85\n\n* **The owner can leave a group without closing it.** Tick the box in the leave popup and the room stays open; the member who has been in it longest becomes its owner.\n* **Remote control** lives in the menus now: your stream's ⋯ menu has the switch; the other person's tile menu has \"Ask to control their screen\".\n* The floating members pill in calls is gone.\n* The three-minute alone timeout applies to DM and group calls only.\n"
 }
