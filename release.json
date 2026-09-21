@@ -1,8 +1,8 @@
 {
-  "version": "0.15.83",
-  "file": "Blackline_0.15.83_x64-setup.exe",
-  "blake3": "5832839f107d37aa41a71c8dc76c21dab59c10842f25c5b563046c1b3ae7b108",
-  "bytes": 11130466,
-  "at": "2026-09-21T01:24:16Z",
-  "notes": "# Blackline 0.15.83\n\n* **The ring popup** is now the same dialog as everything else — flat, the app's buttons.\n* **Alone in a call for three minutes** and it ends, with a line saying why.\n* **Connection copy** says the truth for every switch: relayed by your choice, relayed because no direct path, direct, offline — in one short line. Same words in the menu tick and in Settings.\n"
+  "version": "0.15.84",
+  "file": "Blackline_0.15.84_x64-setup.exe",
+  "blake3": "ecda63ae49d0b390f2a15102507039644f02ce20c8742121233ea1b1fe51670b",
+  "bytes": 11130335,
+  "at": "2026-09-21T01:35:24Z",
+  "notes": "# Blackline 0.15.84\n\n* A face in a menu (Invite to voice) is drawn at its size, not the size of the menu.\n"
 }
