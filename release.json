@@ -1,8 +1,8 @@
 {
-  "version": "0.15.80",
-  "file": "Blackline_0.15.80_x64-setup.exe",
-  "blake3": "7d3a11235662b959e4901e45672ebafa5fde265f4bcc8cdf3ed5d70257f2f917",
-  "bytes": 11129892,
-  "at": "2026-09-20T22:18:21Z",
-  "notes": "# Blackline 0.15.80\n\nBuilt 20 September 2026. Installs over any earlier version and keeps its data. Wire protocol 8:\na build older than 0.15.69 cannot talk to this one — the app now says so instead of showing the\nother person as offline.\n\nStill **not code-signed**: SmartScreen → More info → Run anyway.\n\n## Since 0.15.69\n\n* **Updates arrive on their own.** From this version on, a new build is fetched and verified\n  (signed manifest, checked hash) without anyone sending a file around.\n* **A name is yours only when the name server says so.** Claiming used to say \"yours\" the moment\n  the claim was sent. Now it says \"sent\" until the published log carries it.\n* **Pictures over 100 KB send again.** The middle-size preview was never sealed, so every larger\n  picture silently failed.\n* **Permissions that were decorative are enforced**: read history, voice messages, pin messages.\n* **Someone at a gated space's door** now shows on the space's tile, with a notification.\n* **Calls**: the overlay hides when the pointer rests; the down arrow fills the whole\n  conversation; the volume row in a tile's menu no longer runs into the row below.\n* Per-space profiles removed (nicknames stay). Permission descriptions shortened.\n"
+  "version": "0.15.81",
+  "file": "Blackline_0.15.81_x64-setup.exe",
+  "blake3": "1f805746deebae7c7818e9a233f395aa19c865a3d9663efaccb9127eb181bb21",
+  "bytes": 11128873,
+  "at": "2026-09-21T00:15:51Z",
+  "notes": "# Blackline 0.15.81\n\n* **Remote control is findable.** While you share your screen, a **Control: off/on** button sits in\n  your call bar. Turning it on lets everyone in the call ask to drive your screen — you still say\n  yes or no to each request. On the viewer's side, **Ask to control** is a labelled button on the\n  sharer's tile whenever they share; dimmed, with the reason, until they turn control on.\n"
 }
