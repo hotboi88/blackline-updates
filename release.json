@@ -1,8 +1,8 @@
 {
-  "version": "0.15.96",
-  "file": "Blackline_0.15.96_x64-setup.exe",
-  "blake3": "52c880f6753272189f6ce125ade9409a775743b8656ef3c49c89eac4fb030e54",
-  "bytes": 11118182,
-  "at": "2026-09-21T19:34:43Z",
-  "notes": "# Blackline 0.15.96\n\n* The X that stops your screen share is grey.\n"
+  "version": "0.15.97",
+  "file": "Blackline_0.15.97_x64-setup.exe",
+  "blake3": "ed43b96c0d08e786a2aedd262b9a982f785b85b8b33f56a3b35e451ad61dce1f",
+  "bytes": 11146393,
+  "at": "2026-09-21T19:48:15Z",
+  "notes": "# Blackline 0.15.97\n\n* **Updates and the name log no longer need git on your computer.** They were fetched with git, which only a developer has — so on everyone else's install the update check failed silently. Plain HTTPS now.\n* The version shows, small, in the corner of the user bar.\n* An expanded call tile fills the banner alone — no strip of the others over it.\n"
 }
