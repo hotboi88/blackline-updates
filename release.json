@@ -1,8 +1,8 @@
 {
-  "version": "0.15.90",
-  "file": "Blackline_0.15.90_x64-setup.exe",
-  "blake3": "6a14c123b713106f0072753d7baa915d59e43e6382467e1b33ab4e77bb3e3402",
-  "bytes": 11123503,
-  "at": "2026-09-21T03:35:03Z",
-  "notes": "# Blackline 0.15.90\n\n* **Listening seats are gone.** The sit-in-and-listen feature is removed everywhere. A seat signal from an older build is dropped.\n"
+  "version": "0.15.91",
+  "file": "Blackline_0.15.91_x64-setup.exe",
+  "blake3": "8773143e3b132925d896e0ca20757f19b97d10257bcfcdd7622276b3142e1f56",
+  "bytes": 11115892,
+  "at": "2026-09-21T03:44:54Z",
+  "notes": "# Blackline 0.15.91\n\n* The dock-to-the-right button is gone, and with it its partner: the call sits above the chat, full stop.\n"
 }
