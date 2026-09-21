@@ -1,8 +1,8 @@
 {
-  "version": "0.15.87",
-  "file": "Blackline_0.15.87_x64-setup.exe",
-  "blake3": "d978580a248a384ebbbbd96fa61f3e916c4798becec73bb7c4fa8bb9637d6999",
-  "bytes": 11123647,
-  "at": "2026-09-21T02:13:52Z",
-  "notes": "# Blackline 0.15.87\n\n* **Remote control**: the switch is in the screen-share popout (\"Let them ask to control\"). When it is on, the other person sees an **Ask to control** pill on your tile.\n* The search suggestions box stops short of the right column.\n"
+  "version": "0.15.88",
+  "file": "Blackline_0.15.88_x64-setup.exe",
+  "blake3": "33a1bfef49afb73fa7e17ec110997b2e18b02264c4568b1e9d8325eaae6d544e",
+  "bytes": 11122582,
+  "at": "2026-09-21T02:37:43Z",
+  "notes": "# Blackline 0.15.88\n\n* No outline on Add someone / Send a request, in any state.\n* Filled call: the chat sits in the right pane's column — same width, same drag handle.\n* The message box says just \"Message\" when it is too narrow for the name, so no scrollbar.\n* The space picture editor works again: its mask was painted opaque by an unrelated rule, hiding the picture.\n"
 }
