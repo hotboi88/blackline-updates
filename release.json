@@ -1,8 +1,8 @@
 {
-  "version": "0.15.97",
-  "file": "Blackline_0.15.97_x64-setup.exe",
-  "blake3": "ed43b96c0d08e786a2aedd262b9a982f785b85b8b33f56a3b35e451ad61dce1f",
-  "bytes": 11146393,
-  "at": "2026-09-21T19:48:15Z",
-  "notes": "# Blackline 0.15.97\n\n* **Updates and the name log no longer need git on your computer.** They were fetched with git, which only a developer has — so on everyone else's install the update check failed silently. Plain HTTPS now.\n* The version shows, small, in the corner of the user bar.\n* An expanded call tile fills the banner alone — no strip of the others over it.\n"
+  "version": "0.15.98",
+  "file": "Blackline_0.15.98_x64-setup.exe",
+  "blake3": "1e05990938c658e8d918c8f6d6bfe4bb2f7c30a3a4da71600191fa4af9594b33",
+  "bytes": 11161863,
+  "at": "2026-09-21T20:00:27Z",
+  "notes": "# Blackline 0.15.98\n\n* The relay tick is named by what the link measured: **Relay (better connection)** when the relay path is faster right now, else just **Relay**. Hover for both figures.\n* Remote control's line: \"they can ask; nothing happens until you allow it\".\n* Ticks and dots inside a submenu keep it open, like the menu itself.\n* Mute and Mark as read are gone from the menus.\n"
 }
