@@ -1,8 +1,8 @@
 {
-  "version": "0.15.96",
-  "file": "Blackline_0.15.96_x64-setup.exe",
-  "blake3": "52c880f6753272189f6ce125ade9409a775743b8656ef3c49c89eac4fb030e54",
-  "bytes": 11118182,
-  "at": "2026-09-21T20:06:27Z",
-  "notes": "# Blackline 0.15.96\n\n* The X that stops your screen share is grey.\n"
+  "version": "0.15.99",
+  "file": "Blackline_0.15.99_x64-setup.exe",
+  "blake3": "ea5e300f127cd0801c891d2aa254e50c83fd33c0718740ef4791786e71914fe4",
+  "bytes": 11155410,
+  "at": "2026-09-21T21:17:18Z",
+  "notes": "# Blackline 0.15.99\n\n* **Missed calls show again.** A ring nobody answered wrote nothing down once calls were held open; now it does — \"No answer\" on the caller's side, \"Missed call\" on the other, in the DM list and the stream.\n* The version also sits, tiny, beside the title at the top — the word stays centred.\n* The big card holds still when you change tabs.\n"
 }
