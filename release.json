@@ -1,8 +1,8 @@
 {
-  "version": "0.15.119",
-  "file": "Blackline_0.15.119_x64-setup.exe",
-  "blake3": "a8bbdd321829a03f4772946725f1e7e725007ea8214a24be6b0fa6d2fe32cc6d",
-  "bytes": 11253459,
-  "at": "2026-09-22T05:33:23Z",
-  "notes": "# Blackline 0.15.119\n\n* Invites are real: each one has a name, how long it lasts and how many it lets in, and your device holds it to that — past its time or its count, nobody gets in. They survive a restart.\n* Space settings → Invites lists every living invite (and spent ones for 30 days) with who came in through each, and Revoke.\n* Who let whom in: every member's row says who admitted them and through which invite, on everyone's device.\n* Remote control, made usable: the control strip sits at the top of the tile you were allowed to drive (only that tile, never your own), goes red while you hold the pointer, and has an ✕ to stop; while you hold it, every click and key is theirs — nothing expands the card, nothing triggers the app, and typing works in the popped-out call window too. A session ends with the call, on both sides. Keys are sent with scan codes so every application takes them.\n* Settings → Network: \"Relay by default\" replaces \"Hide my IP\": one switch that sets every friend's and space's Relay switch and what new ones start as.\n* My profile: one Colour (hue + hex) for the icon and the banner.\n* Emoji in a row touch; the tray is Discord-dense with 32 px emoji.\n"
+  "version": "0.15.120",
+  "file": "Blackline_0.15.120_x64-setup.exe",
+  "blake3": "0f0a0e2a0225eb1335087d2cb95ac6bba17be55caf3ddda987803c353da52ebe",
+  "bytes": 11245554,
+  "at": "2026-09-22T06:05:24Z",
+  "notes": "# Blackline 0.15.120\n\n* Remote control: the Ask pill and the control strip appear the moment the offer or the session changes (they waited for an unrelated redraw); a refused pointer lock in the call window no longer throws — control works from the movement either way, and your own cursor hides over their screen.\n* Screen share: frames are encoded on three threads beside the capture instead of on it, and paced against a due time rather than the last frame — measured on a 1080p screen: 30 asked for now gives 30 (was 21), 60 gives 54 (was 34).\n* Screen share on the wire: H.264 first (the codec with hardware behind it on Windows), the frame rate you chose held, and a bitrate that grows with the picture — 1080p60 gets 15 Mb/s, 1080p30 10, 720p 6 (it was capped at 8 whatever the size).\n* Gate: test/e2e-control.mjs walks the whole remote-control flow in the interface, including the popped-out call window.\n"
 }
