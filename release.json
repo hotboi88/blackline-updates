@@ -1,8 +1,8 @@
 {
-  "version": "0.15.122",
-  "file": "Blackline_0.15.122_x64-setup.exe",
-  "blake3": "e35c8d612e592e7bb02e67f80dd7b8b3ab7f3d7256b5673849e139cb04f77126",
-  "bytes": 11242548,
-  "at": "2026-09-22T19:14:50Z",
-  "notes": "# Blackline 0.15.122\n\n* Answering a question of Derek's: a picture inside a collage had no Kept/Cached switch, because a collage hides captions. The switch is now in the lightbox — open any picture and it is there, collaged or not.\n* Keep is about the picture, not about which half of it is on this device: pressing it while only the preview is here also keeps the original, and an original fetched later inherits it. It could be dropped by the store making room before.\n* The Kept/Cached switch now names the file this device actually holds (it offered to keep bytes that were not here).\n* Fixed: a picture whose preview was arriving could throw while drawing its progress.\n"
+  "version": "0.15.123",
+  "file": "Blackline_0.15.123_x64-setup.exe",
+  "blake3": "88ac27ae1e31790a60f1d16424d3422705ac26a3d69a38c3642d266711b56601",
+  "bytes": 11234775,
+  "at": "2026-09-22T20:43:49Z",
+  "notes": "# Blackline 0.15.123\n\n* Share → Best quality: the screen goes straight from Windows into the call, skipping the step that draws every frame as a picture first — sharper, and about a frame quicker. Windows does the asking instead of the Blackline picker; that is the whole trade, and the switch says so. Off by default.\n* The frame rate and size you choose now apply to that path too.\n* A probe for a real call: test/audit/probe-call-quality.mjs prints what is actually arriving and going out — codec, size, frames a second, Mb/s, freezes, round trip.\n"
 }
