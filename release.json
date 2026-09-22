@@ -1,8 +1,8 @@
 {
-  "version": "0.15.113",
-  "file": "Blackline_0.15.113_x64-setup.exe",
-  "blake3": "915b16fbd33e7e22b3660ac5faad2de0cb408cfefb60483975457a0cc2a6b6c1",
-  "bytes": 11185538,
-  "at": "2026-09-22T01:26:30Z",
-  "notes": "# Blackline 0.15.113\n\n* **No text field kicks you out any more.** Panels that redraw on their own wait while you type in one of their fields, and if a field is ever rebuilt under you it gets your text, caret and focus back at once.\n* **Shared audio works**: the sound path started suspended and never made a sound.\n* **A share that stops**: the link to the capture is restarted underneath instead of ending the share; a frame that never decodes no longer blocks every frame after it.\n* Screen shares may use up to 8 Mb/s (was ~2.5), so a game at 1080p keeps its detail.\n* Hovering a shared screen changes nothing about it.\n* Clicking a desktop notification opens the conversation it was about.\n* Pinned messages wear a yellow pin; a pinned poll shows its question in the pins list.\n"
+  "version": "0.15.114",
+  "file": "Blackline_0.15.114_x64-setup.exe",
+  "blake3": "12adaa93e6b7b6213fadd8780bb648faed28885d39e9ff33c8cb74328f2b2740",
+  "bytes": 11185920,
+  "at": "2026-09-22T01:34:44Z",
+  "notes": "# Blackline 0.15.114\n\n* The default theme is updated (brighter text, grain). A device that never chose a theme follows it.\n* **Line spacing** in Settings → Appearance: 85–140% of the default.\n"
 }
