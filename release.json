@@ -1,8 +1,8 @@
 {
-  "version": "0.15.111",
-  "file": "Blackline_0.15.111_x64-setup.exe",
-  "blake3": "650b7f2325947640a7b8f4c1ad3090129eb56693583d10ff4106340e2c560367",
-  "bytes": 11182484,
-  "at": "2026-09-22T00:29:29Z",
-  "notes": "# Blackline 0.15.111\n\n* A new default theme. A device that never chose a theme moves to it; one that did keeps its own.\n"
+  "version": "0.15.112",
+  "file": "Blackline_0.15.112_x64-setup.exe",
+  "blake3": "b6bde0635ddfd5bc88359c6187f4dd60d368a32d2d648b9cfb2cc8e0ab81fb5e",
+  "bytes": 11186109,
+  "at": "2026-09-22T01:14:03Z",
+  "notes": "# Blackline 0.15.112\n\n* The \"In voice 1:03\" chip in the call banner's head is gone too.\n* Fixed: a friend showed as \"in the call\" after a call that had just ended, and Join rang them. Only a state that says they are sitting in the call alone counts now.\n* The unread count sits on the time's line in a conversation row.\n* One model for \"they're in the call\": the moment someone rings you the bar appears with Join (and the ring pops up too); ignore the ring and the bar stays; Join answers while they ring, walks in while they wait. The header's call buttons step aside while the bar is up. The bar is a shade lighter.\n* Emoji sit centred on the line — in the message box, in messages, in reactions.\n* Click an enlarged picture to zoom in around that point; drag to look around; wheel zooms further; click again to go back.\n* A ringing tile is an ordinary card, faded. A tile that has gone is gone at once.\n"
 }
