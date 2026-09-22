@@ -1,8 +1,8 @@
 {
-  "version": "0.15.116",
-  "file": "Blackline_0.15.116_x64-setup.exe",
-  "blake3": "acc078b9b25ed68ab545dce20a60fb506218e65b24b6388f1a66e2c77ebe02d0",
-  "bytes": 11208259,
-  "at": "2026-09-22T02:45:20Z",
-  "notes": "# Blackline 0.15.116\n\n* The new-emoji popup is laid out properly; the code field wears its own colons.\n"
+  "version": "0.15.117",
+  "file": "Blackline_0.15.117_x64-setup.exe",
+  "blake3": "26c9fb1632145f235d91398ccdf6f89f97ad75f796b9f4fa1fd1d89a3e9db4dd",
+  "bytes": 11208634,
+  "at": "2026-09-22T03:20:48Z",
+  "notes": "# Blackline 0.15.117\n\n* Custom emoji are their own category in the tray; the + does not open the file chooser on its own; the code field's placeholder is :emoji:.\n* Custom emoji are the size of a default emoji beside text and large alone, fitted, never stretched; emoji are centred on the line.\n* Custom emoji are Discord-sized: 22 px beside text, 48 px alone.\n* Space overview: the preview is the chooser — click the tile for the picture, the strip for the banner; the separate Picture row is gone.\n* Fixed: choosing a space banner or picture sometimes did nothing (the pane repainted under the open file dialog and the choice was lost).\n"
 }
