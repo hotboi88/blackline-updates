@@ -1,8 +1,8 @@
 {
-  "version": "0.15.117",
-  "file": "Blackline_0.15.117_x64-setup.exe",
-  "blake3": "26c9fb1632145f235d91398ccdf6f89f97ad75f796b9f4fa1fd1d89a3e9db4dd",
-  "bytes": 11208634,
-  "at": "2026-09-22T03:20:48Z",
-  "notes": "# Blackline 0.15.117\n\n* Custom emoji are their own category in the tray; the + does not open the file chooser on its own; the code field's placeholder is :emoji:.\n* Custom emoji are the size of a default emoji beside text and large alone, fitted, never stretched; emoji are centred on the line.\n* Custom emoji are Discord-sized: 22 px beside text, 48 px alone.\n* Space overview: the preview is the chooser — click the tile for the picture, the strip for the banner; the separate Picture row is gone.\n* Fixed: choosing a space banner or picture sometimes did nothing (the pane repainted under the open file dialog and the choice was lost).\n"
+  "version": "0.15.118",
+  "file": "Blackline_0.15.118_x64-setup.exe",
+  "blake3": "d83182c9d3212ad61a0f4bedb723c96a15638c68298727ab67277cd974084039",
+  "bytes": 11205247,
+  "at": "2026-09-22T03:56:54Z",
+  "notes": "# Blackline 0.15.118\n\n* Emoji are centred on the line — really, this time. Default and custom emoji are the same box: 22 px beside text, 48 px alone, 20 px in a reaction pill. The Twemoji font's metric overrides were what drew them big and high.\n* React with a custom emoji: the pill shows the picture, for everyone.\n* Custom emoji tiles in the tray are a little larger, still clear of each other.\n* Space overview: hovering the tile lights the tile alone, not the strip behind it.\n* Protocol 9: a reaction can carry a custom emoji. Both sides need this version.\n"
 }
