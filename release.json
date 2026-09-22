@@ -1,8 +1,8 @@
 {
-  "version": "0.15.115",
-  "file": "Blackline_0.15.115_x64-setup.exe",
-  "blake3": "02792bbce744aa28ff8b2c8cef30f1349adf011dbffd2967146f58a6bf296a10",
-  "bytes": 11210244,
-  "at": "2026-09-22T02:33:00Z",
-  "notes": "# Blackline 0.15.115\n\n* **Custom emoji.** The emoji tray has a Custom section; the + tile makes one from any picture (shrunk to emoji size, under 100 KB; a small GIF stays a GIF) with a :code: you choose. Everyone you send it to sees it — the picture travels with the message. Typing :xx suggests the ten best matches, yours first. Right-click a custom tile to remove it.\n"
+  "version": "0.15.116",
+  "file": "Blackline_0.15.116_x64-setup.exe",
+  "blake3": "acc078b9b25ed68ab545dce20a60fb506218e65b24b6388f1a66e2c77ebe02d0",
+  "bytes": 11208259,
+  "at": "2026-09-22T02:45:20Z",
+  "notes": "# Blackline 0.15.116\n\n* The new-emoji popup is laid out properly; the code field wears its own colons.\n"
 }
