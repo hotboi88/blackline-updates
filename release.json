@@ -1,8 +1,8 @@
 {
-  "version": "0.15.120",
-  "file": "Blackline_0.15.120_x64-setup.exe",
-  "blake3": "0f0a0e2a0225eb1335087d2cb95ac6bba17be55caf3ddda987803c353da52ebe",
-  "bytes": 11245554,
-  "at": "2026-09-22T06:05:24Z",
-  "notes": "# Blackline 0.15.120\n\n* Remote control: the Ask pill and the control strip appear the moment the offer or the session changes (they waited for an unrelated redraw); a refused pointer lock in the call window no longer throws — control works from the movement either way, and your own cursor hides over their screen.\n* Screen share: frames are encoded on three threads beside the capture instead of on it, and paced against a due time rather than the last frame — measured on a 1080p screen: 30 asked for now gives 30 (was 21), 60 gives 54 (was 34).\n* Screen share on the wire: H.264 first (the codec with hardware behind it on Windows), the frame rate you chose held, and a bitrate that grows with the picture — 1080p60 gets 15 Mb/s, 1080p30 10, 720p 6 (it was capped at 8 whatever the size).\n* Gate: test/e2e-control.mjs walks the whole remote-control flow in the interface, including the popped-out call window.\n"
+  "version": "0.15.121",
+  "file": "Blackline_0.15.121_x64-setup.exe",
+  "blake3": "4593089a5a7a737c4c2c934bc7bcf223e8db773337a59e55eaafa4d540f0d7a0",
+  "bytes": 11247252,
+  "at": "2026-09-22T18:51:49Z",
+  "notes": "# Blackline 0.15.121\n\n* The line under a name in a conversation no longer says Offline or Reachable — the dot on their picture and the link icon already do. What is left there is only what a name cannot say: a build too old to talk to yours, or how many people are in a group.\n* Which device, direct or relayed, and the round trip are on the link icon beside the name (hover it).\n"
 }
