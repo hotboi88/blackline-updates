@@ -1,8 +1,8 @@
 {
-  "version": "0.15.123",
-  "file": "Blackline_0.15.123_x64-setup.exe",
-  "blake3": "88ac27ae1e31790a60f1d16424d3422705ac26a3d69a38c3642d266711b56601",
-  "bytes": 11234775,
-  "at": "2026-09-22T20:43:49Z",
-  "notes": "# Blackline 0.15.123\n\n* Share → Best quality: the screen goes straight from Windows into the call, skipping the step that draws every frame as a picture first — sharper, and about a frame quicker. Windows does the asking instead of the Blackline picker; that is the whole trade, and the switch says so. Off by default.\n* The frame rate and size you choose now apply to that path too.\n* A probe for a real call: test/audit/probe-call-quality.mjs prints what is actually arriving and going out — codec, size, frames a second, Mb/s, freezes, round trip.\n"
+  "version": "0.15.124",
+  "file": "Blackline_0.15.124_x64-setup.exe",
+  "blake3": "8fd52a627d8f41a3d11ba99fddd7f3df146cb52a5b09b8ee2a87dbb0edd8946f",
+  "bytes": 11242869,
+  "at": "2026-09-22T21:10:01Z",
+  "notes": "# Blackline 0.15.124\n\n* The message bar is bigger: 16px text, and the emoji in it are drawn a third larger and centred on the line — it was smaller than it needed to be.\n* New: Settings → Guide, after Efficiency. Everything Blackline does differently from the apps it replaces, in plain words, shortest answer first — no server, addresses and keys, relays, presence, files and Keep, spaces and keepers, invites, calls and control, what each person may do.\n* Copy: the panes and sheets say less. What was an explanation inside a control is now one line, and the long version is in the Guide.\n"
 }
