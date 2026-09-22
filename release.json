@@ -1,8 +1,8 @@
 {
-  "version": "0.15.121",
-  "file": "Blackline_0.15.121_x64-setup.exe",
-  "blake3": "4593089a5a7a737c4c2c934bc7bcf223e8db773337a59e55eaafa4d540f0d7a0",
-  "bytes": 11247252,
-  "at": "2026-09-22T18:51:49Z",
-  "notes": "# Blackline 0.15.121\n\n* The line under a name in a conversation no longer says Offline or Reachable — the dot on their picture and the link icon already do. What is left there is only what a name cannot say: a build too old to talk to yours, or how many people are in a group.\n* Which device, direct or relayed, and the round trip are on the link icon beside the name (hover it).\n"
+  "version": "0.15.122",
+  "file": "Blackline_0.15.122_x64-setup.exe",
+  "blake3": "e35c8d612e592e7bb02e67f80dd7b8b3ab7f3d7256b5673849e139cb04f77126",
+  "bytes": 11242548,
+  "at": "2026-09-22T19:14:50Z",
+  "notes": "# Blackline 0.15.122\n\n* Answering a question of Derek's: a picture inside a collage had no Kept/Cached switch, because a collage hides captions. The switch is now in the lightbox — open any picture and it is there, collaged or not.\n* Keep is about the picture, not about which half of it is on this device: pressing it while only the preview is here also keeps the original, and an original fetched later inherits it. It could be dropped by the store making room before.\n* The Kept/Cached switch now names the file this device actually holds (it offered to keep bytes that were not here).\n* Fixed: a picture whose preview was arriving could throw while drawing its progress.\n"
 }
