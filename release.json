@@ -1,8 +1,8 @@
 {
-  "version": "0.15.124",
-  "file": "Blackline_0.15.124_x64-setup.exe",
-  "blake3": "8fd52a627d8f41a3d11ba99fddd7f3df146cb52a5b09b8ee2a87dbb0edd8946f",
-  "bytes": 11242869,
-  "at": "2026-09-22T21:10:01Z",
-  "notes": "# Blackline 0.15.124\n\n* The message bar is bigger: 16px text, and the emoji in it are drawn a third larger and centred on the line — it was smaller than it needed to be.\n* New: Settings → Guide, after Efficiency. Everything Blackline does differently from the apps it replaces, in plain words, shortest answer first — no server, addresses and keys, relays, presence, files and Keep, spaces and keepers, invites, calls and control, what each person may do.\n* Copy: the panes and sheets say less. What was an explanation inside a control is now one line, and the long version is in the Guide.\n"
+  "version": "0.15.125",
+  "file": "Blackline_0.15.125_x64-setup.exe",
+  "blake3": "892fb4173dc5518435bbe92b7fb520fdd5dc548999e60b2e7bd1ee5f7fd48dad",
+  "bytes": 11244268,
+  "at": "2026-09-22T21:25:24Z",
+  "notes": "# Blackline 0.15.125\n\n* Emoji-only messages: the big emoji no longer ride up over the name above them — the line is tall enough to hold them and they sit in the middle of it.\n* The message bar's emoji sit on the line with the text rather than above it.\n* The message bar no longer shows a scrollbar when it holds one line (or nothing but its placeholder).\n"
 }
