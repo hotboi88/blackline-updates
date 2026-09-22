@@ -1,8 +1,8 @@
 {
-  "version": "0.15.118",
-  "file": "Blackline_0.15.118_x64-setup.exe",
-  "blake3": "d83182c9d3212ad61a0f4bedb723c96a15638c68298727ab67277cd974084039",
-  "bytes": 11205247,
-  "at": "2026-09-22T03:56:54Z",
-  "notes": "# Blackline 0.15.118\n\n* Emoji are centred on the line — really, this time. Default and custom emoji are the same box: 22 px beside text, 48 px alone, 20 px in a reaction pill. The Twemoji font's metric overrides were what drew them big and high.\n* React with a custom emoji: the pill shows the picture, for everyone.\n* Custom emoji tiles in the tray are a little larger, still clear of each other.\n* Space overview: hovering the tile lights the tile alone, not the strip behind it.\n* Protocol 9: a reaction can carry a custom emoji. Both sides need this version.\n"
+  "version": "0.15.119",
+  "file": "Blackline_0.15.119_x64-setup.exe",
+  "blake3": "a8bbdd321829a03f4772946725f1e7e725007ea8214a24be6b0fa6d2fe32cc6d",
+  "bytes": 11253459,
+  "at": "2026-09-22T05:33:23Z",
+  "notes": "# Blackline 0.15.119\n\n* Invites are real: each one has a name, how long it lasts and how many it lets in, and your device holds it to that — past its time or its count, nobody gets in. They survive a restart.\n* Space settings → Invites lists every living invite (and spent ones for 30 days) with who came in through each, and Revoke.\n* Who let whom in: every member's row says who admitted them and through which invite, on everyone's device.\n* Remote control, made usable: the control strip sits at the top of the tile you were allowed to drive (only that tile, never your own), goes red while you hold the pointer, and has an ✕ to stop; while you hold it, every click and key is theirs — nothing expands the card, nothing triggers the app, and typing works in the popped-out call window too. A session ends with the call, on both sides. Keys are sent with scan codes so every application takes them.\n* Settings → Network: \"Relay by default\" replaces \"Hide my IP\": one switch that sets every friend's and space's Relay switch and what new ones start as.\n* My profile: one Colour (hue + hex) for the icon and the banner.\n* Emoji in a row touch; the tray is Discord-dense with 32 px emoji.\n"
 }
