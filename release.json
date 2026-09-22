@@ -1,8 +1,8 @@
 {
-  "version": "0.15.114",
-  "file": "Blackline_0.15.114_x64-setup.exe",
-  "blake3": "12adaa93e6b7b6213fadd8780bb648faed28885d39e9ff33c8cb74328f2b2740",
-  "bytes": 11185920,
-  "at": "2026-09-22T01:34:44Z",
-  "notes": "# Blackline 0.15.114\n\n* The default theme is updated (brighter text, grain). A device that never chose a theme follows it.\n* **Line spacing** in Settings → Appearance: 85–140% of the default.\n"
+  "version": "0.15.115",
+  "file": "Blackline_0.15.115_x64-setup.exe",
+  "blake3": "02792bbce744aa28ff8b2c8cef30f1349adf011dbffd2967146f58a6bf296a10",
+  "bytes": 11210244,
+  "at": "2026-09-22T02:33:00Z",
+  "notes": "# Blackline 0.15.115\n\n* **Custom emoji.** The emoji tray has a Custom section; the + tile makes one from any picture (shrunk to emoji size, under 100 KB; a small GIF stays a GIF) with a :code: you choose. Everyone you send it to sees it — the picture travels with the message. Typing :xx suggests the ten best matches, yours first. Right-click a custom tile to remove it.\n"
 }
