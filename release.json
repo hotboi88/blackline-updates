@@ -1,8 +1,8 @@
 {
-  "version": "0.15.109",
-  "file": "Blackline_0.15.109_x64-setup.exe",
-  "blake3": "b1fe8eed0c52dec2809f8e9965281069219460af80181ca88a755821fabf3bac",
-  "bytes": 11187045,
-  "at": "2026-09-22T00:07:26Z",
-  "notes": "# Blackline 0.15.109\n\n* Space invites say where they go: Add a space → Join with an invite, not Add someone.\n* The \"In voice 0:14\" chip beside the conversation name is gone.\n"
+  "version": "0.15.110",
+  "file": "Blackline_0.15.110_x64-setup.exe",
+  "blake3": "52177c10ed7b735f92a0c03dc1ff8b02cc0cd14d462b6024e096017df2d1f376",
+  "bytes": 11184183,
+  "at": "2026-09-22T00:16:27Z",
+  "notes": "# Blackline 0.15.110\n\n* **The phone button in a group rings the group**: everyone not already in the voice gets a ring for the room; answering joins it.\n* **A call bar under the header** while somebody else is in this conversation's call: their faces stacked on the left (up to three, then +N), who is in it, and Join on the right.\n"
 }
