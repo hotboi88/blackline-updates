@@ -1,8 +1,8 @@
 {
-  "version": "0.15.108",
-  "file": "Blackline_0.15.108_x64-setup.exe",
-  "blake3": "adb252d3eb39f9c9387525d2af86a1b8f645ece9c774c515738cc664e6b70dd9",
-  "bytes": 11185492,
-  "at": "2026-09-21T23:55:41Z",
-  "notes": "# Blackline 0.15.108\n\n* In a direct call the other person's tile is dimmed while it rings, shown while they are in, and not drawn at all while you sit there alone.\n* Call tiles fade in and out; a ringing card is fully transparent.\n"
+  "version": "0.15.109",
+  "file": "Blackline_0.15.109_x64-setup.exe",
+  "blake3": "b1fe8eed0c52dec2809f8e9965281069219460af80181ca88a755821fabf3bac",
+  "bytes": 11187045,
+  "at": "2026-09-22T00:07:26Z",
+  "notes": "# Blackline 0.15.109\n\n* Space invites say where they go: Add a space → Join with an invite, not Add someone.\n* The \"In voice 0:14\" chip beside the conversation name is gone.\n"
 }
