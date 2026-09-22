@@ -1,8 +1,8 @@
 {
-  "version": "0.15.125",
-  "file": "Blackline_0.15.125_x64-setup.exe",
-  "blake3": "892fb4173dc5518435bbe92b7fb520fdd5dc548999e60b2e7bd1ee5f7fd48dad",
-  "bytes": 11244268,
-  "at": "2026-09-22T21:25:24Z",
-  "notes": "# Blackline 0.15.125\n\n* Emoji-only messages: the big emoji no longer ride up over the name above them — the line is tall enough to hold them and they sit in the middle of it.\n* The message bar's emoji sit on the line with the text rather than above it.\n* The message bar no longer shows a scrollbar when it holds one line (or nothing but its placeholder).\n"
+  "version": "0.15.126",
+  "file": "Blackline_0.15.126_x64-setup.exe",
+  "blake3": "99e0001121a3e91d77146eadd08b65719e8a19f5162f5af9d78e346f82912d72",
+  "bytes": 11240758,
+  "at": "2026-09-22T22:04:13Z",
+  "notes": "# Blackline 0.15.126\n\n* Calls hold any number of people and still look right: 1–3 side by side, 4 and up in a grid whose columns are chosen to make the tiles as big as the room allows (5 → 3+2, 10 → 4×3, 20 → 5×4, 30 → 6×5). A short last row is centred and nothing is ever cut off.\n* Click a tile to pin it: it takes the room and everybody else rides a rail beside it that scrolls with the wheel, without drawing a scrollbar.\n* No gradients. The page, the call tiles, the accent buttons, the name plates and the GIF placeholder are flat colours now. The colour sliders, the checkerboard behind transparent pictures and the scrim that keeps white text readable over a photo stay as they are.\n* A call tile takes its colour from the person on it — their hue, or the average colour of their picture.\n* A channel's header says its description and nothing else (and Topic is called Description now).\n"
 }
