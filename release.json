@@ -1,8 +1,8 @@
 {
-  "version": "0.15.130",
-  "file": "Blackline_0.15.130_x64-setup.exe",
-  "blake3": "6f3c9eb724131add4428770749d38dde1f6d5dca0475c40815502119f82e16ff",
-  "bytes": 11243096,
-  "at": "2026-09-23T01:08:26Z",
-  "notes": "# Blackline 0.15.130\n\n* Emoji in a sent message sit on the line rather than below it — the drop in 0.15.128 overshot.\n"
+  "version": "0.15.131",
+  "file": "Blackline_0.15.131_x64-setup.exe",
+  "blake3": "79e482cc402c80ceda2356084e074a2bb6d7a72533ad7c7c065d6f9c5c37110e",
+  "bytes": 11246420,
+  "at": "2026-09-23T01:28:45Z",
+  "notes": "# Blackline 0.15.131\n\n* Emoji are drawn exactly the way Discord draws them: a picture, 1.375em square beside text and 3em alone, aligned to the bottom of the line — not a font glyph sitting wherever the font puts it. Message text is 16px/22px, as theirs is.\n* The same picture is used everywhere: messages, reactions, the tray, menus and the message bar.\n"
 }
