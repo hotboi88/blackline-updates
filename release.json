@@ -1,8 +1,8 @@
 {
-  "version": "0.15.136",
-  "file": "Blackline_0.15.136_x64-setup.exe",
-  "blake3": "7e15afc493d40229b9c11628419a79a937eccfbb5a25e20407d0ede7d444514b",
-  "bytes": 11243321,
-  "at": "2026-09-23T03:56:38Z",
-  "notes": "# Blackline 0.15.136\n\n* The flicker is gone, and this time the cause is known rather than guessed: a repaint compared the list against its own whitespace, decided every row was out of place, and moved all of them — the conversation taken apart and put back on every change. A recorder in the running app caught hundreds of removals and insertions in a single frame. Rows are matched to what they are, dividers included; a repaint now moves nothing. Gated: 0 node moves while reactions come and go.\n* A reaction on the last message scrolls the last line into view instead of leaving it half hidden.\n* :shortcode: turns into its emoji as you type again, and a backslash in front keeps the words — the backslash is not part of the message.\n* Editing a message to nothing and saving offers to delete it.\n* The caret in the message bar is the same height beside an emoji as beside letters.\n"
+  "version": "0.15.137",
+  "file": "Blackline_0.15.137_x64-setup.exe",
+  "blake3": "ff87dfb4c0dc27560b598d7a5f41de7c0ea54b0b51081d4ae1fdd914fa53f494",
+  "bytes": 11249175,
+  "at": "2026-09-23T04:24:34Z",
+  "notes": "# Blackline 0.15.137\n\n* Lines of a conversation sit closer together: every message carried 3 px above and below it, which put a gap between two lines from the same person that Discord does not have.\n* The emoji suggestions are just the suggestions — no heading above them.\n* A mention never shows somebody's address, only the name (and the name they go by elsewhere, when it differs).\n* Notes on a profile take more than one line.\n* Everything you type into reads at the size of the chat.\n* On a one-line message the tick or clock sits on that line; on a longer one it stays in the corner.\n* Clicking a call tile expands it on its own again: the rail beside a pinned tile laid the stage out in two columns in the expanded dock and the call looked broken. It comes back when it lays out properly.\n* The ring around somebody speaking is back to its old weight.\n"
 }
