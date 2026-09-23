@@ -1,8 +1,8 @@
 {
-  "version": "0.15.140",
-  "file": "Blackline_0.15.140_x64-setup.exe",
-  "blake3": "dd4ddfc905896d357da7b4ec53877c936d9738077860e5ca51e5ee9f742e7cc8",
-  "bytes": 11312335,
-  "at": "2026-09-23T07:52:50Z",
-  "notes": "# Blackline 0.15.140\n\n* **A link in a message gets a card** — the site, the page's title, the words under it and a small\n  picture, the way Discord and Slack draw one. Discord makes them on a server: you send a link and\n  their machine fetches the page for everyone in the conversation. There is no machine here, and a\n  card each reader fetched would tell the site who opened your message, when, and from where. So\n  your device fetches the page once, before the message goes, and the card travels inside it. The\n  people you send it to never touch the link. Settings → Chat turns it off, and then nothing is\n  fetched at all.\n* Editing a link out of a message takes its card with it; editing one in gets a card.\n* Everyone needs this version to talk to everyone else: a message can now carry a card, and an older\n  build would not recognise the signature over it. The app updates itself.\n"
+  "version": "0.15.141",
+  "file": "Blackline_0.15.141_x64-setup.exe",
+  "blake3": "424afea3aa306328b1a8a7cfd8e95898aac8d501d0609b72c45a54cd810101ac",
+  "bytes": 11309616,
+  "at": "2026-09-23T08:01:26Z",
+  "notes": "# Blackline 0.15.141\n\n* An emoji chosen while a message is being edited goes into the message being edited, not into the\n  message bar. The picker was working out which box to write into by looking at what had the focus —\n  and opening the picker puts the focus in the picker's own search field, so it always guessed the\n  bar. It now remembers the box it was opened for.\n* Pressing the emoji button a second time closes the picker while editing a message, and on a\n  thread's reply box, the same way it always has on the message bar.\n"
 }
