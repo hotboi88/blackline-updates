@@ -1,8 +1,8 @@
 {
-  "version": "0.15.132",
-  "file": "Blackline_0.15.132_x64-setup.exe",
-  "blake3": "a254de58111e0ca77a077d4ac344acc03eb164bb1f5c5b02a416cdaed56f7d7f",
-  "bytes": 11248988,
-  "at": "2026-09-23T01:44:37Z",
-  "notes": "# Blackline 0.15.132\n\n* Emoji are pictures cropped to their own edges, so a row of them touches instead of sitting in boxes of empty space.\n* Your own messages carry a pen between the reaction and the reply buttons.\n* Editing happens where the message is: its words become a box in place, with escape to cancel and enter to save. Nothing the app does on its own can repaint over what you are typing.\n* The message bar keeps every space you type (an earlier pass through it could eat them).\n"
+  "version": "0.15.133",
+  "file": "Blackline_0.15.133_x64-setup.exe",
+  "blake3": "d79b510fe00faf6adc15073b1da253a6e5b77a7f7c3d34d8cf454f5dd3661a84",
+  "bytes": 11246764,
+  "at": "2026-09-23T02:27:50Z",
+  "notes": "# Blackline 0.15.133\n\n* Message text is back to the size it was; only the emoji kept Discord's sizes (22 px beside text, 48 alone).\n* Nothing under the pointer flickers any more. A conversation used to take every message out of the page and put it back on any change, so the row under your cursor lost and regained its hover. Rows are now left where they are and only what changed is touched — with a gate that watches the hovered row 60 times a second while a reaction lands.\n* Typing while editing a message goes into the message, not into the bar.\n* No bright pixel in the corner of a picture's caption.\n* A call tile is its colour from the first frame: the colours of people's pictures are read once at start and when the list changes, so a tile no longer changes colour a moment after it appears.\n"
 }
