@@ -1,8 +1,8 @@
 {
-  "version": "0.15.137",
-  "file": "Blackline_0.15.137_x64-setup.exe",
-  "blake3": "ff87dfb4c0dc27560b598d7a5f41de7c0ea54b0b51081d4ae1fdd914fa53f494",
-  "bytes": 11249175,
-  "at": "2026-09-23T04:24:34Z",
-  "notes": "# Blackline 0.15.137\n\n* Lines of a conversation sit closer together: every message carried 3 px above and below it, which put a gap between two lines from the same person that Discord does not have.\n* The emoji suggestions are just the suggestions — no heading above them.\n* A mention never shows somebody's address, only the name (and the name they go by elsewhere, when it differs).\n* Notes on a profile take more than one line.\n* Everything you type into reads at the size of the chat.\n* On a one-line message the tick or clock sits on that line; on a longer one it stays in the corner.\n* Clicking a call tile expands it on its own again: the rail beside a pinned tile laid the stage out in two columns in the expanded dock and the call looked broken. It comes back when it lays out properly.\n* The ring around somebody speaking is back to its old weight.\n"
+  "version": "0.15.138",
+  "file": "Blackline_0.15.138_x64-setup.exe",
+  "blake3": "b2f0d4fc844bcccce286e3c8fa614249e133d3137d5200c044757d7f49662ccb",
+  "bytes": 11245327,
+  "at": "2026-09-23T04:51:35Z",
+  "notes": "# Blackline 0.15.138\n\n* Notes and nicknames read in the app's own font at the chat's size (a text box takes the browser's font unless it is told otherwise).\n* Threads: your own comments can be edited and deleted from the thread itself, the reply box has an emoji button, and nothing in a thread is reacted to.\n* A message being edited shows no hover tools over it; the box carries its own emoji button.\n* A pinned message shows the pin, not the word.\n* A picture waiting to be sent shows a pointing cursor, not a magnifier.\n* Names sit a shade larger than the words under them.\n* Calling somebody who is not reachable no longer draws their card or says you are in a call with them: nothing was dialled and nothing rang, so the conversation says it will ring when they are back.\n* \"See who people are\" says what is actually true: in a sealed space it is the keys, and in a space that does not seal every member already holds every member's record.\n"
 }
