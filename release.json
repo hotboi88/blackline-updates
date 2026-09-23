@@ -1,8 +1,8 @@
 {
-  "version": "0.15.143",
-  "file": "Blackline_0.15.143_x64-setup.exe",
-  "blake3": "2ffe8b3ed261aa9369bbba6f5eeda9d2a6c1664739ff93099ed4beff19197e6f",
-  "bytes": 11289814,
-  "at": "2026-09-23T09:14:28Z",
-  "notes": "# Blackline 0.15.143\n\n* **Videos play in the app.** A card for a video is a player: press it and it plays where it is,\n  rather than opening a browser. Settings → Chat → \"Play videos here\" turns it off.\n* The trade: this is the one thing a card does from the device that is *reading* the message. The\n  video can only come from YouTube, so pressing play asks them for it from here, and they learn\n  this address and that it was watched — the same as clicking the link, but inside the window. The\n  card's own picture and words still travel inside the message and reach nobody.\n"
+  "version": "0.15.145",
+  "file": "Blackline_0.15.145_x64-setup.exe",
+  "blake3": "6d48c16420904b8f95b5d3218559eaf91a092563d610b3aefc700db548e65ed3",
+  "bytes": 11475633,
+  "at": "2026-09-23T09:38:57Z",
+  "notes": "# Blackline 0.15.145\n\n* **A video card is sized for watching**, and the corner drags that width — every video follows it\n  from then on. A button lifts a playing card out over the page, near enough full screen, and\n  Escape puts it back; the video does not restart when you do it.\n* **Reels stand up.** A Short, a Reel or a TikTok is drawn nine by sixteen and narrow rather than\n  letterboxed into a wide card, and plays here through each site's own public embed.\n* **Blackline keeps running when you close the window.** There is no machine in the middle holding\n  your messages, so nothing can reach you unless this device is running: closing the window now puts\n  it in the tray instead of ending it, the tray says how many are unread, and its menu quits it.\n* **Settings → Notifications → Start with Windows.** It comes up in the tray with no window, so a\n  message that arrives before you open it still reaches you.\n* **A notification takes you to the message.** Pressing one brings the window up, opens the\n  conversation and stands on the message it was about; a call's notification opens the call.\n"
 }
