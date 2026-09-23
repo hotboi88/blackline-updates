@@ -1,8 +1,8 @@
 {
-  "version": "0.15.129",
-  "file": "Blackline_0.15.129_x64-setup.exe",
-  "blake3": "9d8bb14d749370f82cd7765c8bae3fc203a3b4f4fe07a19de65d7d17a116c3ff",
-  "bytes": 11241280,
-  "at": "2026-09-23T01:00:54Z",
-  "notes": "# Blackline 0.15.129\n\n* The message bar is no longer a plain text field: an emoji typed into it is drawn as a picture, on the line with the words, exactly where Discord puts it. A text field can only draw an emoji as a font glyph, and a glyph sits where the font says — which is why every attempt to nudge it failed.\n* The four emoji at the top of a message's menu are the four you reacted with most recently, kept between runs.\n* A message waiting to be sent shows a clock in the same corner the read tick uses, and reads like any other message.\n"
+  "version": "0.15.130",
+  "file": "Blackline_0.15.130_x64-setup.exe",
+  "blake3": "6f3c9eb724131add4428770749d38dde1f6d5dca0475c40815502119f82e16ff",
+  "bytes": 11243096,
+  "at": "2026-09-23T01:08:26Z",
+  "notes": "# Blackline 0.15.130\n\n* Emoji in a sent message sit on the line rather than below it — the drop in 0.15.128 overshot.\n"
 }
