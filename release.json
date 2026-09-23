@@ -1,8 +1,8 @@
 {
-  "version": "0.15.131",
-  "file": "Blackline_0.15.131_x64-setup.exe",
-  "blake3": "79e482cc402c80ceda2356084e074a2bb6d7a72533ad7c7c065d6f9c5c37110e",
-  "bytes": 11246420,
-  "at": "2026-09-23T01:28:45Z",
-  "notes": "# Blackline 0.15.131\n\n* Emoji are drawn exactly the way Discord draws them: a picture, 1.375em square beside text and 3em alone, aligned to the bottom of the line — not a font glyph sitting wherever the font puts it. Message text is 16px/22px, as theirs is.\n* The same picture is used everywhere: messages, reactions, the tray, menus and the message bar.\n"
+  "version": "0.15.132",
+  "file": "Blackline_0.15.132_x64-setup.exe",
+  "blake3": "a254de58111e0ca77a077d4ac344acc03eb164bb1f5c5b02a416cdaed56f7d7f",
+  "bytes": 11248988,
+  "at": "2026-09-23T01:44:37Z",
+  "notes": "# Blackline 0.15.132\n\n* Emoji are pictures cropped to their own edges, so a row of them touches instead of sitting in boxes of empty space.\n* Your own messages carry a pen between the reaction and the reply buttons.\n* Editing happens where the message is: its words become a box in place, with escape to cancel and enter to save. Nothing the app does on its own can repaint over what you are typing.\n* The message bar keeps every space you type (an earlier pass through it could eat them).\n"
 }
