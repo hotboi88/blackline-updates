@@ -1,8 +1,8 @@
 {
-  "version": "0.15.133",
-  "file": "Blackline_0.15.133_x64-setup.exe",
-  "blake3": "d79b510fe00faf6adc15073b1da253a6e5b77a7f7c3d34d8cf454f5dd3661a84",
-  "bytes": 11246764,
-  "at": "2026-09-23T02:27:50Z",
-  "notes": "# Blackline 0.15.133\n\n* Message text is back to the size it was; only the emoji kept Discord's sizes (22 px beside text, 48 alone).\n* Nothing under the pointer flickers any more. A conversation used to take every message out of the page and put it back on any change, so the row under your cursor lost and regained its hover. Rows are now left where they are and only what changed is touched — with a gate that watches the hovered row 60 times a second while a reaction lands.\n* Typing while editing a message goes into the message, not into the bar.\n* No bright pixel in the corner of a picture's caption.\n* A call tile is its colour from the first frame: the colours of people's pictures are read once at start and when the list changes, so a tile no longer changes colour a moment after it appears.\n"
+  "version": "0.15.134",
+  "file": "Blackline_0.15.134_x64-setup.exe",
+  "blake3": "8b622f64979ef40c2fbf7610d14080a4f06894e60ecbf3e15bb46bd198b481b7",
+  "bytes": 11245491,
+  "at": "2026-09-23T03:33:01Z",
+  "notes": "# Blackline 0.15.134\n\n* Typing an emoji no longer starts a new line, and emptying the message bar brings its placeholder back. Both came from the same thing: a browser leaves an invisible line break at the end of an editable box, and the bar was reading it as a line somebody typed.\n* The conversation no longer chases every change in height. Being at the bottom means following new messages; a reaction making a row taller is not a new message, and scrolling for it moved whatever was under your pointer.\n* Gates: the message bar's emoji and placeholder, and the hovered row's tools surviving reactions coming and going.\n"
 }
