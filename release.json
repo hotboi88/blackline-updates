@@ -1,8 +1,8 @@
 {
-  "version": "0.15.146",
-  "file": "Blackline_0.15.146_x64-setup.exe",
-  "blake3": "9d7cbc80aa16de2d47dfc5545fc6d1a9474ff7279e1b83daacf38b5ce579262f",
-  "bytes": 11475350,
-  "at": "2026-09-23T10:10:12Z",
-  "notes": "# Blackline 0.15.146\n\n* **Nothing stops a video any more.** Sending a message, a reaction arriving, a read mark — every\n  one of them redrew the message and took the player with it. Whatever is running is left alone\n  until it is finished.\n* **Theatre keeps the conversation.** It used to cover the whole window, which is the wrong thing\n  entirely in a chat: the reason to watch something here rather than in a browser is that the chat\n  carries on beside it. The player is pinned over the top of the conversation now, at most a little\n  over half its height, and the messages keep their own room underneath and still scroll.\n* **Resizing a video keeps it in view.** Dragging it wider made it taller, and the bottom went under\n  the bottom of the conversation, so you had to scroll after every drag to see what you had done.\n  The conversation follows it down now, only as far as it has to.\n"
+  "version": "0.15.148",
+  "file": "Blackline_0.15.148_x64-setup.exe",
+  "blake3": "8cfa0fccb8fe6cd6362dcd70737b35c5df5c71bc3bca6cd5604b69a33bdeb467",
+  "bytes": 11471288,
+  "at": "2026-09-23T11:03:59Z",
+  "notes": "# Blackline 0.15.148\n\n* **Instagram reels and TikToks play.** They were in the list of players the core builds and in the\n  one the shell will put in a frame, but not in the one the interface checks before opening the\n  player — so the card said \"play\" and pressing it did nothing. The gate now walks a link of each\n  kind through all three lists and fails if they disagree.\n* **And they are not mostly somebody else's interface.** Instagram's embed is a header, the video,\n  then the likes, the comments and a box to write one — around 230px of their furniture around a\n  video that came out a quarter of the card, with a scrollbar inside it because the frame was\n  shorter than their layout. The frame gets their full height now and the card shows the part with\n  the video in it.\n"
 }
