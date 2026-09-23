@@ -1,8 +1,8 @@
 {
-  "version": "0.15.141",
-  "file": "Blackline_0.15.141_x64-setup.exe",
-  "blake3": "424afea3aa306328b1a8a7cfd8e95898aac8d501d0609b72c45a54cd810101ac",
-  "bytes": 11309616,
-  "at": "2026-09-23T08:01:26Z",
-  "notes": "# Blackline 0.15.141\n\n* An emoji chosen while a message is being edited goes into the message being edited, not into the\n  message bar. The picker was working out which box to write into by looking at what had the focus —\n  and opening the picker puts the focus in the picker's own search field, so it always guessed the\n  bar. It now remembers the box it was opened for.\n* Pressing the emoji button a second time closes the picker while editing a message, and on a\n  thread's reply box, the same way it always has on the message bar.\n"
+  "version": "0.15.142",
+  "file": "Blackline_0.15.142_x64-setup.exe",
+  "blake3": "512aaee023a8caf21b3fcfd2db3e57d4bd82ab875acae72ad1a6552366921763",
+  "bytes": 11288631,
+  "at": "2026-09-23T08:52:11Z",
+  "notes": "# Blackline 0.15.142\n\n* **Links arrive as proper embeds.** A video, a photograph, a listing, an article — the card is now\n  drawn from what the page says it is, so a YouTube link comes with its thumbnail, the play glyph\n  and how long it runs; a photo or a listing comes with its picture across the card; a plain link\n  keeps the small square. It works for any site that describes itself, which is nearly all of them,\n  rather than for a list of sites somebody had to write down.\n* Settings → Chat → \"Play videos in the card\" (off by default). On, the play button plays it here;\n  that asks YouTube for the video from your device, so they learn your address and that you\n  watched. Off, it opens in your browser as it always has. Nothing on a card reaches anybody unless\n  you turn this on.\n* A picture that could not be squeezed under the size a message will carry used to be dropped\n  altogether, so some cards arrived with no picture at all; and a logo with a transparent\n  background arrived as a black square. Both fixed.\n* **The pinned card is back.** Clicking a card in a call opens it across the stage with everybody\n  else beside it as a rail of small ones. It was turned off because it looked broken — one CSS rule\n  meant for the opened card was also catching every card in the rail and flattening them.\n* Everyone needs this version to talk to everyone else; the app updates itself.\n"
 }
