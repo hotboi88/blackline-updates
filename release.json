@@ -1,8 +1,8 @@
 {
-  "version": "0.15.135",
-  "file": "Blackline_0.15.135_x64-setup.exe",
-  "blake3": "3a24987c68989e754b44c50c295d8beebc79d3a31b918f56a7a1f680ba533e2b",
-  "bytes": 11244556,
-  "at": "2026-09-23T03:45:11Z",
-  "notes": "# Blackline 0.15.135\n\n* Typing an emoji no longer starts a new line, and emptying the message bar brings its placeholder back. Both came from the same thing: a browser leaves an invisible line break at the end of an editable box, and the bar was reading it as a line somebody typed.\n* The conversation no longer chases every change in height. Being at the bottom means following new messages; a reaction making a row taller is not a new message, and scrolling for it moved whatever was under your pointer.\n* Gates: the message bar's emoji and placeholder, and the hovered row's tools surviving reactions coming and going.\n* The message bar reads at the size a message does; it was larger than everything around it.\n* Space settings → Overview: hovering the banner lights the banner alone, and hovering the tile the tile alone — measured, not eyeballed (test/audit/probe-spv.mjs).\n* A picture opened full size has a copy button beside Save, which puts the picture itself on the clipboard.\n"
+  "version": "0.15.136",
+  "file": "Blackline_0.15.136_x64-setup.exe",
+  "blake3": "7e15afc493d40229b9c11628419a79a937eccfbb5a25e20407d0ede7d444514b",
+  "bytes": 11243321,
+  "at": "2026-09-23T03:56:38Z",
+  "notes": "# Blackline 0.15.136\n\n* The flicker is gone, and this time the cause is known rather than guessed: a repaint compared the list against its own whitespace, decided every row was out of place, and moved all of them — the conversation taken apart and put back on every change. A recorder in the running app caught hundreds of removals and insertions in a single frame. Rows are matched to what they are, dividers included; a repaint now moves nothing. Gated: 0 node moves while reactions come and go.\n* A reaction on the last message scrolls the last line into view instead of leaving it half hidden.\n* :shortcode: turns into its emoji as you type again, and a backslash in front keeps the words — the backslash is not part of the message.\n* Editing a message to nothing and saving offers to delete it.\n* The caret in the message bar is the same height beside an emoji as beside letters.\n"
 }
