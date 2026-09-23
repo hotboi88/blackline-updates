@@ -1,8 +1,8 @@
 {
-  "version": "0.15.134",
-  "file": "Blackline_0.15.134_x64-setup.exe",
-  "blake3": "8b622f64979ef40c2fbf7610d14080a4f06894e60ecbf3e15bb46bd198b481b7",
-  "bytes": 11245491,
-  "at": "2026-09-23T03:33:01Z",
-  "notes": "# Blackline 0.15.134\n\n* Typing an emoji no longer starts a new line, and emptying the message bar brings its placeholder back. Both came from the same thing: a browser leaves an invisible line break at the end of an editable box, and the bar was reading it as a line somebody typed.\n* The conversation no longer chases every change in height. Being at the bottom means following new messages; a reaction making a row taller is not a new message, and scrolling for it moved whatever was under your pointer.\n* Gates: the message bar's emoji and placeholder, and the hovered row's tools surviving reactions coming and going.\n"
+  "version": "0.15.135",
+  "file": "Blackline_0.15.135_x64-setup.exe",
+  "blake3": "3a24987c68989e754b44c50c295d8beebc79d3a31b918f56a7a1f680ba533e2b",
+  "bytes": 11244556,
+  "at": "2026-09-23T03:45:11Z",
+  "notes": "# Blackline 0.15.135\n\n* Typing an emoji no longer starts a new line, and emptying the message bar brings its placeholder back. Both came from the same thing: a browser leaves an invisible line break at the end of an editable box, and the bar was reading it as a line somebody typed.\n* The conversation no longer chases every change in height. Being at the bottom means following new messages; a reaction making a row taller is not a new message, and scrolling for it moved whatever was under your pointer.\n* Gates: the message bar's emoji and placeholder, and the hovered row's tools surviving reactions coming and going.\n* The message bar reads at the size a message does; it was larger than everything around it.\n* Space settings → Overview: hovering the banner lights the banner alone, and hovering the tile the tile alone — measured, not eyeballed (test/audit/probe-spv.mjs).\n* A picture opened full size has a copy button beside Save, which puts the picture itself on the clipboard.\n"
 }
