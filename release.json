@@ -1,8 +1,8 @@
 {
-  "version": "0.15.128",
-  "file": "Blackline_0.15.128_x64-setup.exe",
-  "blake3": "abc1d14c46ec13580200dabe0b437456df62f0f31164f183d9f01391c1577491",
-  "bytes": 11250166,
-  "at": "2026-09-23T00:19:20Z",
-  "notes": "# Blackline 0.15.128\n\n* Emoji beside text now hang from the line the way Discord's do. Measured in the running app, a middle-aligned Twemoji glyph sat 8 px above the middle of the text next to it — that is what \"the emoji sit high\" has meant all along, and no amount of nudging the box could fix it because the box was never the problem.\n* Reacting no longer flickers the message under your pointer: a row is brought up to date child by child, so the button you are hovering is never rebuilt.\n* The notifications menu has no dangling divider at the bottom.\n"
+  "version": "0.15.129",
+  "file": "Blackline_0.15.129_x64-setup.exe",
+  "blake3": "9d8bb14d749370f82cd7765c8bae3fc203a3b4f4fe07a19de65d7d17a116c3ff",
+  "bytes": 11241280,
+  "at": "2026-09-23T01:00:54Z",
+  "notes": "# Blackline 0.15.129\n\n* The message bar is no longer a plain text field: an emoji typed into it is drawn as a picture, on the line with the words, exactly where Discord puts it. A text field can only draw an emoji as a font glyph, and a glyph sits where the font says — which is why every attempt to nudge it failed.\n* The four emoji at the top of a message's menu are the four you reacted with most recently, kept between runs.\n* A message waiting to be sent shows a clock in the same corner the read tick uses, and reads like any other message.\n"
 }
