@@ -1,8 +1,8 @@
 {
-  "version": "0.15.127",
-  "file": "Blackline_0.15.127_x64-setup.exe",
-  "blake3": "b2904ad37f2feeeddf4c480002ca88b2fcf80460a867c6091650a86e6d45877d",
-  "bytes": 11245631,
-  "at": "2026-09-22T22:38:57Z",
-  "notes": "# Blackline 0.15.127\n\n* Settings opens without the sheet sliding up, so nothing inside it appears to move or shrink as it arrives.\n* The dim over a round picture stops at the picture instead of covering the ring around it.\n* Colour is three things now, for people and for spaces alike: hue, tint and depth. One colour draws the icon and the banner.\n* Space settings → Overview: the space's picture is bigger, and hovering the banner no longer dims the picture or puts a pencil on it as well.\n* Reacting to a message no longer makes it flicker: a row that changes is patched where it stands instead of being swapped for a new one, so the pointer never loses it.\n* Right-clicking a call tile offers Profile first.\n* Best quality moved into Stream quality, where the rest of the picture settings are.\n* A speaking ring is the tile's edge: no corner sits outside it.\n* Remove is called Remove, and clearing your status leaves the popup open.\n* Names over a picture in a call stay white on their dark plate in light mode.\n"
+  "version": "0.15.128",
+  "file": "Blackline_0.15.128_x64-setup.exe",
+  "blake3": "abc1d14c46ec13580200dabe0b437456df62f0f31164f183d9f01391c1577491",
+  "bytes": 11250166,
+  "at": "2026-09-23T00:19:20Z",
+  "notes": "# Blackline 0.15.128\n\n* Emoji beside text now hang from the line the way Discord's do. Measured in the running app, a middle-aligned Twemoji glyph sat 8 px above the middle of the text next to it — that is what \"the emoji sit high\" has meant all along, and no amount of nudging the box could fix it because the box was never the problem.\n* Reacting no longer flickers the message under your pointer: a row is brought up to date child by child, so the button you are hovering is never rebuilt.\n* The notifications menu has no dangling divider at the bottom.\n"
 }
