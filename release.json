@@ -1,8 +1,8 @@
 {
-  "version": "0.15.148",
-  "file": "Blackline_0.15.148_x64-setup.exe",
-  "blake3": "8cfa0fccb8fe6cd6362dcd70737b35c5df5c71bc3bca6cd5604b69a33bdeb467",
-  "bytes": 11471288,
-  "at": "2026-09-23T11:03:59Z",
-  "notes": "# Blackline 0.15.148\n\n* **Instagram reels and TikToks play.** They were in the list of players the core builds and in the\n  one the shell will put in a frame, but not in the one the interface checks before opening the\n  player — so the card said \"play\" and pressing it did nothing. The gate now walks a link of each\n  kind through all three lists and fails if they disagree.\n* **And they are not mostly somebody else's interface.** Instagram's embed is a header, the video,\n  then the likes, the comments and a box to write one — around 230px of their furniture around a\n  video that came out a quarter of the card, with a scrollbar inside it because the frame was\n  shorter than their layout. The frame gets their full height now and the card shows the part with\n  the video in it.\n"
+  "version": "0.15.150",
+  "file": "Blackline_0.15.150_x64-setup.exe",
+  "blake3": "9fd360c67f256f424a3eda566759cf5f98e9bfd75b9e66992108dbc8f03f2cf7",
+  "bytes": 11519613,
+  "at": "2026-09-24T00:39:30Z",
+  "notes": "# 0.15.150\n\n**The call is above the video, always.** A card watched big sat over the call\nbanner and covered whoever you were talking to. The call and the conversation\nshare one layer on purpose — the call sits on the conversation and the stream\nscrolls under it — so a player that sticks to the top of the stream lands\nexactly where the call is, and it was the player that drew on top. It is the\ncall now, over everything. The player sticks *below* the call rather than\nbehind it, so it is still watchable while you are in one.\n\n**A video keeps your place.** The frame is never moved in the document, which\nis why making it bigger or putting it back has always kept it playing. Now the\nposition is remembered as well, so anything that does rebuild the frame resumes\nwhere you were instead of starting again. The player reports where it is up to\nas it plays; nothing is polled and nothing is fetched, only messages from the\nplayer's own origin are believed, and only a number is taken from them.\n\nThis is YouTube only. Vimeo, Instagram and TikTok report their position in\ntheir own ways and are not done, so a rebuilt frame for one of those still\nstarts at the beginning.\n"
 }
